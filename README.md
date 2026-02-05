@@ -53,7 +53,8 @@ irrigation, soil health, and nutrient management.
   
 ## 🧰 Hardware & Materials
 
-### Main Components 
+### Main Components
+- Arduino Mega 2560 R3  
 - ESP32 Wi-Fi/Bluetooth Microcontroller  
 
 ### Power & Energy
@@ -110,8 +111,9 @@ Data is analyzed for accuracy, reliability, and trends affecting rice growth.
 
 ## 👨‍🔬 Research Team
 
-Group 6 – Naga City Science High School  
+The following Naga City Science High School students contributed greatly to the design, development, and testing of the K.A.N.I.N. system. 
 
+Batch Stellarius (
 - Argete, Zildjan Miles O.  
 - Dominguiano, Mikael L.  
 - Manalang, Markus Kaelan D.  
