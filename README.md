@@ -53,8 +53,7 @@ irrigation, soil health, and nutrient management.
   
 ## 🧰 Hardware & Materials
 
-### Main Components
-- Arduino Mega 2560 R3  
+### Main Components 
 - ESP32 Wi-Fi/Bluetooth Microcontroller  
 
 ### Power & Energy
