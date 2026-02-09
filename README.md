@@ -109,20 +109,6 @@ Data is analyzed for accuracy, reliability, and trends affecting rice growth.
   - Data gathering procedures  
   - Bibliography & appendices  
 
-## 👨‍🔬 Research Team
-
-The following Naga City Science High School students contributed greatly to the design, development, and testing of the K.A.N.I.N. system. 
-
-Batch Stellarius (
-- Argete, Zildjan Miles O.  
-- Dominguiano, Mikael L.  
-- Manalang, Markus Kaelan D.  
-- Moskito, Abram Jesse B.  
-- Nacario, Vince Ethan C.  
-- Panizal, Joshua A.  
-
-Research Adviser: **Sir Mat Atole**
-
 ## 📜 License
 
 This project is intended for **educational and research purposes**.  
