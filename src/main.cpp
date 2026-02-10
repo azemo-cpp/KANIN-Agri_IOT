@@ -11,7 +11,7 @@
 #define DHT_PIN_DATA     4
 #define DS18B20_PIN_DQ   16
 #define SDFILE_PIN_CS    5
-#define SOILMOISTURE     12
+#define SOILMOISTURE     34
 
 /* =====================
    SENSOR SETUP
