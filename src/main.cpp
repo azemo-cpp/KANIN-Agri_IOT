@@ -85,4 +85,31 @@ void loop() {
   }
 
   delay(15000);
+
+  bool sensorError = false;
+
+  // DHT 11
+  if (isnan(airTemp) || isnan(airHumidity)) {
+    Serial.println("ERROR: DHT11 FAILED TO READ");
+    sensorError = true;
+  }
+
+  // DS18B20
+  soilTempSensor.requestTemperatures();
+  if (soilTemp == DEVICE_DISCONNECTED_C) {
+    Serial.println("ERROR: SOIL TEMP FAILED TO READ");
+    sensorError = true;
+  }
+  
+  // Soil Moisture
+  if (soilRaw == 0 || soilRaw == 4095) {
+    Serial.println("ERROR: SOIL MOISTURE FAILED TO READ");
+  }
+
+  // Final Decision
+  if (sensorError) {
+    Serial.println("Data skipped due to sensor errors.");
+    delay(2000);
+    return;
+  }
 }
